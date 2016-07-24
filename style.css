@@ -1,0 +1,70 @@
+*{
+	padding:0;
+	margin:0;
+	border:0
+}
+
+body{
+	background:silver;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 115%;
+}
+
+h3{
+	text-align: center;
+	margin-top:2px;
+	margin-bottom:2px;
+	font-weight:bold;
+}
+#container{
+	width:98%;
+	
+	margin: 0 auto;
+	/*padding: 5px;*/
+	
+	background:white;
+	
+	padding:2px;
+}
+
+#chat_data{
+	width:100%;
+	padding:5px;
+	/*margin-bottom:5px; */
+	border-bottom:1px solid silver;
+	margin: 5px;
+}
+
+#chat_box{
+	height:500px;
+	width: 98%;
+	font-weight: bold;
+	
+}
+
+input[type='text']{
+	width:100%;
+	height:40px;
+	border:1px solid gray;
+	border-radius:5px;
+	font-size:300%;
+	
+}
+
+input[type='submit']{
+	width:100%;
+	height:40px;
+	border:1px solid gray;
+	border-radius:5px;
+	font-size:300%;
+	margin-bottom:3px;
+	
+}
+
+textarea{
+	width:100%;
+	height:40px;
+	border:1px solid gray;
+	border-radius:5px;
+	font-size:150%;
+}
